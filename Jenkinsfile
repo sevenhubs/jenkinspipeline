@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent any /* utilizar todos los nodos disponibles */
 
 	stages {
         stage('Build') {
