@@ -2,7 +2,7 @@ pipeline {
     agent any // utilizar todos los nodos disponibles
 
     parameters {
-        string(name: 'sample', defaultValue: 'It works', description: 'This is the first parameter'),
+        string(name: 'sample', defaultValue: 'It works', description: 'This is the first parameter')
         string(name: 'sample2', defaultValue: 'It works2', description: 'This is the second parameter')
     }
 
