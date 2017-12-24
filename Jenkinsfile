@@ -17,7 +17,7 @@ pipeline {
             }
             post {
                 success {
-                    echo 'Now Archiving... ${params.sample}' // incluir parámetro
+                    echo "Now Archiving... ${params.sample}" // incluir parámetro
                     archiveArtifacts artifacts: '**/target/*.war'
                 }
             }
